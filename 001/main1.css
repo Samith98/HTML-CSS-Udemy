@@ -1,0 +1,17 @@
+.t3{
+    width: 100px;
+    height: 100px;
+    background-color: burlywood;
+    /*border: #ff6fe2;*/
+    border: 20px;
+}
+
+.t1{
+    width: 200px;
+    height: 150px;
+    background-color: antiquewhite;
+    /*border: black;*/
+    margin-top: 50px;
+    border-color: black;
+    border-width: 50px;
+}

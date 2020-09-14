@@ -1,0 +1,32 @@
+p#sansText {
+    font-family: 'Times New Roman';
+    font-size: 1.5rem;
+}
+
+p#sansSerifText {
+    font-family: sans-serif;
+}
+
+h1 {
+    text-shadow: 5px 10px 5px chocolate;
+}
+
+p#editableText {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-transform: uppercase;
+    font-style: italic;
+    text-decoration: line-through;
+    text-indent: 4rem;
+    letter-spacing: 1rem;
+}
+
+a#tempId {
+    text-decoration: none;
+    font-size: 2rem;
+    font-weight: 100;
+}
+
+a#tempId:hover {
+    text-decoration: underline;
+    font-weight: 900;
+}

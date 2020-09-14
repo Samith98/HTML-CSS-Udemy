@@ -1,0 +1,15 @@
+#hello {
+    color: yellow;
+    border: 10px solid red;
+}
+
+.hello {
+    color: red;
+    border: 2px solid green;
+}
+p {
+    color: pink;
+}
+[target=_blank] {
+    color: green;
+}

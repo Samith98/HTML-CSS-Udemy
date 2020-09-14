@@ -1,0 +1,17 @@
+h1{
+    color: red;
+    border: 4px solid green;
+    font-style: oblique;
+}
+.cloud {
+    color: blue;
+    border: 20px solid yellow;
+}
+.emperor{
+    color: yellow;
+    border: 10px solid red;
+    /*font-style: normal;*/
+}
+#emp {
+    color: green;
+}

@@ -1,0 +1,77 @@
+p{
+    text-align: center;
+    font-size: 40px;
+}
+
+a:link{
+    color: red;
+    font-family: "Adobe Caslon Pro";
+}
+
+a:hover{
+    color: green;
+    font-family: "Adobe Devanagari";
+}
+
+a:visited{
+    color: blue;
+    font-family: "Adobe Garamond Pro Bold";
+    font-style: italic;
+}
+
+a:active{
+    color: burlywood;
+    font-family: "Adobe Garamond Pro Bold";
+    font-style: oblique;
+}
+
+img{
+    width: 100px;
+    height: 100px;
+    border: 5px solid gold;
+    border-radius: 100%;
+    /*padding: 20px;*/
+    margin: 1px;
+    background-size: cover;
+    box-sizing: border-box;
+    /*display: inline-block;*/
+}
+
+div{
+    width: 200px;
+    height: 150px;
+    background-color: aqua;
+    display: inline-block;
+    margin: 0 auto;
+    border: 10px groove red;
+    padding: 10px;
+}
+
+div:hover{
+    background-color: hotpink;
+    cursor: pointer;
+}
+
+h1, h2, h3, h4, h5, h6{
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    /*outline: none;*/
+    font: inherit;
+    line-height: 0.75;
+    /*display: inline-block;*/
+    /*border-radius: 0;*/
+}
+
+table, thead, tr, tbody, td, th{
+    border: 2px solid black;
+    background-color: darkgrey;
+    caption-side: bottom;
+    border-collapse: collapse
+}
+
+div + p{
+    color: red;
+    text-align: center;
+    font-size: 30px;
+}

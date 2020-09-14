@@ -1,0 +1,14 @@
+p {
+    font-family: sans-serif;
+    margin-block-start: 50px;
+    margin-block-end: 20px;
+    padding-block-start: 50px;
+    padding-block-end: 20px;
+    font-size: 1.5rem;
+    line-height: 175%;
+    text-transform: capitalize;
+    font-variant-ligatures: historical-ligatures;
+    text-shadow: 5px 10px 5px green;
+    text-decoration: wavy underline red;
+    text-indent: 4rem;
+}
