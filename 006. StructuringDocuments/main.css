@@ -7,13 +7,13 @@
     padding: 10px;
     border-radius: 10px;
     text-align: center;
-    /* max-width: 950px; */
-    /* min-width: 250px; */
+    max-width: 950px;
+    min-width: 250px;
 }
 
 .main-section:hover{
-    /* width: 550px; */
-    /* height: 600px; */
+    width: 550px;
+    height: 600px;
     background-color: rosybrown;
     box-shadow: 5px 5px 1.5px greenyellow;
 }
