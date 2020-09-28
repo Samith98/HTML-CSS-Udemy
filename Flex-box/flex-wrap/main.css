@@ -1,0 +1,15 @@
+body{
+    display: flex;
+    flex-wrap: wrap;        /*default property for a flex*/
+    flex-direction: row;    /*default property for a flex*/
+}
+
+div{
+    flex-grow: 1;
+    width: 200px;
+    height: 100px;
+    background-color: grey;
+    border: 2px solid blue;
+    margin: 5px;
+    text-align: center;
+}

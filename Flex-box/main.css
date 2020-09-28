@@ -1,0 +1,11 @@
+div{
+    width: 100px;
+    height: 75px;
+    border: 2px solid green;
+    background-color: greenyellow;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+}
