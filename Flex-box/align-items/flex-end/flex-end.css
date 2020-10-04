@@ -1,0 +1,47 @@
+header{
+    background-color: turquoise;
+    border: violet;
+    border-radius: 4px;
+    box-shadow: 2px 2px 0.5px yellow;
+}
+
+.row-container{
+    display: flex;
+    width: 100%;
+    height: 25rem;
+    margin: 2px;
+    box-shadow: 2px 2px 0.5px burlywood;
+    flex-flow: row wrap;
+    align-items: flex-end;
+}
+
+.column-container{
+    display: flex;
+    margin: 2px;
+    box-shadow: 2px 2px 0.5px cornflowerblue;
+    flex-flow: column wrap;
+    align-items: flex-end;
+}
+
+div{
+    width: 125px;
+    height: 100px;
+    background-color: grey;
+    text-align: center;
+    border: 2px solid black;
+    margin: 0.25rem;
+}
+
+a{
+    font-size: 20px;
+    text-decoration: none;
+}
+
+a:hover{
+    font-size: 35px;
+    text-decoration: none;
+}
+
+a:active{
+    color: turquoise;
+}

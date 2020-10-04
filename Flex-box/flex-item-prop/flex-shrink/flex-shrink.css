@@ -1,0 +1,20 @@
+body{
+    display: flex;
+    /* flex-direction: row; */
+    /* flex-wrap: wrap; */
+}
+
+div{
+    width: 300px;
+    height: 200px;
+    border: solid black;
+    text-align: center;
+}
+
+.flex1{
+    flex-shrink: 1;
+}
+
+.flex2{
+    flex-shrink: 2;
+}
