@@ -1,0 +1,22 @@
+body{
+    display: flex;
+    border: 1px solid black;
+    padding: 2px;
+}
+
+div{
+    height: 200px;
+    width: 350px;
+    background: grey;
+    border: 1px solid red;
+    flex: 1 1 auto;
+    text-align: center;
+}
+
+#two-flex{
+    flex: 2 2 auto;
+}
+
+#three-flex{
+    flex: 4 4 auto;
+}
