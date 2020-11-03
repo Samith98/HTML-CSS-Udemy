@@ -1,0 +1,21 @@
+body {
+  border: 2px solid red;
+  margin: 4px;
+  padding: 2px;
+  background: grey;
+}
+
+h1,
+p {
+  color: blue;
+  border: 1px solid burlywood;
+  margin: 4px;
+}
+
+@media print {
+  #print {
+    color: red;
+    background: tomato;
+    border: none;
+  }
+}

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Media Queries: min-width</title>
+    <link rel="stylesheet" href="min-width.css" />
+  </head>
+  <body>
+    <h1>This text is blue since the min-width is not applied on this</h1>
+    <p>
+      The text in here is not changed to red because the min-width property is
+      not applied to this paragraph or the heading.
+    </p>
+    <br />
+    <br />
+    <h1 id="minWidth">This text is Red because min-width is applied</h1>
+    <p id="minWidth">
+      The text in here turns to blue because the min-width proerty is applied,
+      when minimum width is 550 pixels.
+    </p>
+    <br />
+    <br />
+    <h1 id="minMaxWidth">
+      This text is Yellow because min-width & max-width is applied
+    </h1>
+    <p id="minMaxWidth">
+      The text in here turns to yellow because the min-width & max-width proerty
+      is applied, when minimum width is 550 pixels.
+    </p>
+  </body>
+</html>

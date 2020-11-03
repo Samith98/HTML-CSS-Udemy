@@ -1,0 +1,45 @@
+nav,
+ul,
+li,
+main {
+  padding: 0;
+  border: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: turquoise;
+  border: 2px solid red;
+  margin: 20px auto;
+  padding: 1.75px;
+  display: flex;
+  flex-flow: row wrap;
+  width: 80%;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+nav {
+  border: 1px solid orangered;
+  width: 100%;
+}
+
+li {
+  list-style: none;
+  margin: 2px;
+  padding: 20px;
+}
+
+ul {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+
+main {
+  width: 100%;
+}

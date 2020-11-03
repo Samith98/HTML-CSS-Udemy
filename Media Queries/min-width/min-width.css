@@ -1,0 +1,29 @@
+body {
+  border: 2px solid red;
+  margin: 4px;
+  padding: 2px;
+  background: grey;
+}
+
+h1,
+p {
+  color: blue;
+  border: 1px solid burlywood;
+  margin: 4px;
+}
+
+@media (max-width: 550px) {
+  #minWidth {
+    color: red;
+  }
+}
+
+@media (min-width: 700px) and (max-width: 800px) {
+    #minMaxWidth {
+      color: yellow;
+    }
+    #minWidth {
+      color: yellow;
+    }
+  }
+  

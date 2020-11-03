@@ -1,0 +1,17 @@
+nav{
+    width: 20%;
+}
+
+main{
+    width: 80%;
+    padding: 5px;
+}
+
+ul{
+    flex-flow: column wrap;
+    align-items: center;
+}
+
+li:hover{
+    background-color: orangered;
+}
