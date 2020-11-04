@@ -1,0 +1,16 @@
+.c1{
+    background-color: rgb(15, 39, 110);
+}
+
+.c2{
+    background-color: royalblue;
+}
+
+.c3{
+    background-color: rgb(138, 155, 207);
+}
+
+.c4{
+    border: 1px solid red;
+    box-sizing: border-box;
+}
