@@ -1,0 +1,25 @@
+html,
+body,
+div {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+div {
+  display: flex;
+  height: 100vh;
+  border: 10px solid green;
+  justify-content: center;
+  align-items: center;
+  background-image: url(../../../39.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: greenyellow;
+  text-align: center;
+}
+
+p {
+  font-size: 4rem;
+}
