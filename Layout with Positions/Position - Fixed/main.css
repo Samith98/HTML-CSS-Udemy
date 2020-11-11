@@ -1,0 +1,20 @@
+div{
+    border-radius: 5px;
+}
+
+#one{
+    height: 1000px;
+    margin: 4px;
+    width: 70%;
+    background-color: cadetblue;
+    border: 2px solid green;
+}
+
+#two{
+    height: 100px;
+    margin: 2px;
+    width: 30%;
+    background-color: indigo;
+    border: 2px dashed red;
+    position: fixed;
+}

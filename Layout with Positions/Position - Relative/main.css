@@ -1,0 +1,32 @@
+html, body, div{
+    padding: 0%;
+    border: 0;
+    margin: 0%;
+}
+
+body{
+    width: 100%;
+    height: 60%;
+    border: 2px solid pink;
+}
+
+div{
+    height: 100px;
+    width: 100px;
+    background-color: rebeccapurple;
+    border: 2px solid red;
+}
+
+#Relative{
+    height: 100px;
+    width: 100px;
+    background-color: rosybrown;
+    border: 2px dashed seagreen;
+    position: relative;
+    left: 10px;
+    top: 10px;
+}
+
+#Relative:hover{
+    position: static;
+}
