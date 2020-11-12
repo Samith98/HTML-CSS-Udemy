@@ -1,0 +1,26 @@
+html, body, div{
+    border: 0ch;
+    padding: 0ch;
+    margin: 0ch;
+}
+
+body{
+    border: 2px solid black;
+    margin: 0 auto;
+    background-color: burlywood;
+    /* box-sizing: border-box; */
+}
+
+div{
+    background-color: crimson;
+    height: 200px;
+    width: 200px;
+    margin: 0 auto;
+    border: 2px solid black;
+}
+
+#relative{
+    position: relative;
+    top: 20px;
+    right: 20px;
+}

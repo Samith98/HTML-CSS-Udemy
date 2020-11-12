@@ -1,0 +1,25 @@
+/* html, body, div{
+    margin: 0;
+    border: 0;
+    padding: 0;
+} */
+
+body{
+    position: relative;
+    max-width: 700px;
+    margin: 0 auto;
+    border: 2px solid black;
+}
+
+nav{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 150px;
+}
+
+main{
+    padding-left: 20px;
+    border-left: 2px dashed grey;
+    margin-left: 150px;
+}
