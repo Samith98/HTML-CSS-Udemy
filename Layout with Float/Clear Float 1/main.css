@@ -1,0 +1,18 @@
+div{
+    height: 150px;
+    width: 150px;
+    background-color: cadetblue;
+    border: 2px solid red;
+    margin: 10px;
+    text-align: center
+}
+
+.box{
+    float: left;
+}
+
+.after-clear{
+    width: 100%;
+    height: auto;
+    clear: both;
+}

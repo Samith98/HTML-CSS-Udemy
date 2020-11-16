@@ -1,0 +1,25 @@
+body{
+    max-width: 70%;
+    margin: 30px auto;
+}
+
+nav, main{
+    border: 2px solid black;
+    box-sizing: border-box;
+}
+
+nav{
+    float: left;
+    width: 25%;
+}
+
+main{
+    float: right;
+    width: 75%;
+}
+
+/* This is used to demonstrate the clear:both property to this layout */
+article{
+    clear: both;
+    border: 9px solid green;
+}

@@ -1,0 +1,42 @@
+html, body, header, nav, main, footer{
+    margin: 0;
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header, nav, main, footer{
+    border-radius: 15px;
+}
+
+body{
+    margin: 15px;
+}
+
+header{
+    height: 40px;
+    background-color: sandybrown;
+    margin-bottom: 10px;
+}
+
+nav{
+    height: 300px;
+    width: 30%;
+    background-color: silver;
+    float: left;
+    margin-bottom: 10px;
+}
+
+main{
+    height: 300px;
+    width: 65%;
+    background-color: slateblue;
+    float: right;
+    margin-bottom: 10px;
+}
+
+footer{
+    height: 40px;
+    background-color: teal;
+    clear: both;
+}

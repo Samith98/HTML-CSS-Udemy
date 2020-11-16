@@ -1,0 +1,30 @@
+body{
+    border: 2px solid black;
+    margin: 20px auto;
+    padding: 10px;
+}
+
+img{
+    border: 2px solid red;
+    width: 400px;
+    height: 400px;
+    float: right;
+}
+
+#image{
+    border: 2px solid red;
+    width: 400px;
+    height: 400px;
+    float: right;
+}
+
+div#with{
+    border: 2px solid blue;
+    margin-top: 350px;
+    overflow: auto;
+}
+
+div#without{
+    border: 2px solid green;
+    margin-top: 10px;
+}

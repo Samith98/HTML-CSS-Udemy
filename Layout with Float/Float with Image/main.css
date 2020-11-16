@@ -1,0 +1,23 @@
+div,
+img {
+	border: 2px solid red;
+	margin: 20px;
+}
+
+div {
+	overflow: auto; /*This is used to solve the float issue.*/
+}
+
+#right {
+	float: right;
+	/* overflow: auto; */
+}
+
+#left {
+	float: left;
+}
+
+img {
+	width: 100px;
+	height: 100px;
+}

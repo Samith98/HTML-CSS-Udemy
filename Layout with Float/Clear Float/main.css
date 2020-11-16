@@ -1,0 +1,19 @@
+section, div, p{
+    border: 2px solid red;
+    margin: 20px;
+}
+
+div{
+    height: 100px;
+    width: 100px;
+    float: left;
+    border: 2px solid blue;
+}
+
+.after-clear{
+    margin-top: 100px;
+}
+
+p#after-clear{
+    clear: both;
+}

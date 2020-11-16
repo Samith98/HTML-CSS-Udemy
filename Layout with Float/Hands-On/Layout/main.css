@@ -1,0 +1,39 @@
+html, body, header, nav, main, footer{
+    margin: 0;
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header, nav, main, footer{
+    border-radius: 15px;
+}
+
+header{
+    background-color: greenyellow;
+    height: 20px;
+    margin-top: 10px;
+}
+
+nav{
+    float: left;
+    background-color: grey;
+    height: 200px;
+    width: 24%;
+    margin-top: 10px;
+}
+
+main{
+    float: right;
+    background-color: khaki;
+    height: 200px;
+    width: 74%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+footer{
+    height: 20px;
+    background-color: lightcoral;
+    clear: both;
+}

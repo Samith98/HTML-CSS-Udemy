@@ -1,0 +1,15 @@
+body, div, p{
+    border: 2px solid blue;
+    margin: 0;
+}
+
+div{
+    border: 2px solid green;
+    width: 100px;
+    height: 100px;
+    float: left;
+}
+
+.with-clear{
+    clear: both;
+}
