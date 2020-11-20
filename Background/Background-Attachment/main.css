@@ -1,0 +1,21 @@
+html, body, div, ul{
+    padding: 0;
+    border: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#atf{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url(../../29.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-attachment: fixed;
+    color: white;
+    font-size: 100px;
+    text-align: center;
+}

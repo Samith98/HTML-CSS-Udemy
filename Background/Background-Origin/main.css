@@ -1,0 +1,11 @@
+div{
+    width: 600px;
+    height: 600px;
+    border: 50px solid black;
+    background-image: url(../../29.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-origin: padding-box;
+    padding: 40px;
+    color: white;
+}

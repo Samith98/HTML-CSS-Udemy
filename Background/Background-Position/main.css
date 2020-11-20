@@ -1,0 +1,6 @@
+body{
+    background-image: url(../../29.jpg);
+    background-size: 200px 200px;
+    background-repeat: no-repeat;
+    background-position: center; /*left right center top bottom*/
+}
