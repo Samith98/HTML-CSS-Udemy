@@ -1,0 +1,11 @@
+body{
+    padding: 0;
+    border: 0;
+    margin: 0;
+}
+
+body{
+    background-image: url(../dog.png);
+    background-size: 600px 100px;
+    background-repeat: repeat-y;
+}
