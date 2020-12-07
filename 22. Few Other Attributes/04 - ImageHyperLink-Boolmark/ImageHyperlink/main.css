@@ -1,0 +1,13 @@
+body{
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    border: 4px groove lightcoral;
+    padding: 5px;
+}
+
+img{
+    width: 900px;
+    height: 900px;
+}

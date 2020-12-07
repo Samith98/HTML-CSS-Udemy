@@ -1,0 +1,19 @@
+ul{
+    list-style: none;
+    background-color: blue;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    padding: 20px 10px;
+    text-align: center;
+}
+
+a[href="#top"]{
+    background-color: teal;
+}
+
+a:hover{
+    background-color: thistle;
+}
