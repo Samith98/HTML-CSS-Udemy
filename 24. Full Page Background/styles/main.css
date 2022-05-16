@@ -1,0 +1,77 @@
+body{
+    font-family: sans-serif;
+    color: whitesmoke;
+    text-transform: uppercase;
+}
+
+header{
+    width: 100vw;
+    height: 40px;
+    background-color: rgba(0, 0, 0, 0.800);
+    position: fixed;
+}
+
+#idx-atf{
+    /* Layout */
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* Background */
+    background-color: blue;
+    background-image: url(../img/background-photo-mobile-devices.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+#idx-atf > div{
+    height: 80vh;
+}
+
+.idx-center-spacebetween{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.idx-center-center{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1{
+    font-size: 3rem;
+    text-align: center;
+}
+
+h2{
+    font-size: 1.4rem;
+    font-weight: 700;
+    text-align: center;
+}
+
+h3{
+    font-size: 1.4rem;
+    text-align: center;
+    margin-top: .4rem;
+    line-height: 1.3;
+}
+
+button{
+    font-size: 1.4rem;
+    font-weight: 700;
+    border: 2px solid whitesmoke;
+    border-radius: 5px;
+    padding: .7rem 1.2rem;
+}
+
+button:hover{
+    background-color: whitesmoke;
+    color: black;
+    border: 2px solid black;
+}

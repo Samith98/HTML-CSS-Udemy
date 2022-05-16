@@ -1,0 +1,31 @@
+html, body, svg{
+    border:0px;
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#amaze{
+    width: 800px;
+    height: 800px;
+    border: 20px solid goldenrod;
+    padding: 5px;
+}
+
+#icon{
+    stroke: red;
+    stroke-width: 8px;
+    fill: black;
+}
+
+#icon:hover{
+    stroke:blue;
+    fill: green;
+}

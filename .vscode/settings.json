@@ -1,7 +1,0 @@
-{
-    "editor.wordWrap": "on",
-    "prettier.tabWidth": 4,
-    "prettier.useTabs": true,
-    "prettier.withNodeModules": true,
-    "prettier.vueIndentScriptAndStyle": true
-}

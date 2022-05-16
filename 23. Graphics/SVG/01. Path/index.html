@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <title>SVG - Path</title>
+    <!-- <style>
+        svg{
+            border: 4px solid red;
+        }
+    </style> -->
+    <svg version="1.1"
+        xmlns="http://www.w3.org/2000/svg"
+        width="1000"
+        height="1000">
+        <path d="M100 100 H900 V900 H100 L100 100" fill="blue" stroke="red"/>
+        <!-- 
+            <path d="M10 10 h80 v80 h-80 Z"/> 
+            This gives the same result as above path using relative coordinates
+        -->
+        <!-- 
+            <path d="M10 10 h90 V90 H10 Z"/> this gives the same result as above path
+            Here Z instructs the svg to go to the begining point from (10,90) point.
+         -->
+        <circle cx="10" cy="10" r="2" fill="red"/>
+        <circle cx="10" cy="90" r="2" fill="red"/>
+        <circle cx="90" cy="90" r="2" fill="red"/>
+        <circle cx="90" cy="10" r="2" fill="red"/>
+    </svg>
+</head>
+<body>
+    
+</body>
+</html>
